@@ -1,1 +1,2 @@
 # AI-900-AI-Fundamentals
+Here are the Jupyter notebooks I created during the (Microsoft Azure AI Fundamentals)[https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-900/] training I started and never finished.
