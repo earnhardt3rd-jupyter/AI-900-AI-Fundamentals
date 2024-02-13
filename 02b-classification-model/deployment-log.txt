@@ -1,0 +1,824 @@
+2023-06-17T04:40:19,852557900+00:00 - rsyslog/run 
+2023-06-17T04:40:19,858571500+00:00 - gunicorn/run 
+2023-06-17T04:40:19,868077900+00:00 | gunicorn/run | 
+2023-06-17T04:40:19,869714200+00:00 | gunicorn/run | ###############################################
+2023-06-17T04:40:19,871140200+00:00 | gunicorn/run | AzureML Container Runtime Information
+2023-06-17T04:40:19,872737400+00:00 | gunicorn/run | ###############################################
+2023-06-17T04:40:19,875729500+00:00 | gunicorn/run | 
+2023-06-17T04:40:19,892342600+00:00 | gunicorn/run | 
+2023-06-17T04:40:19,909932500+00:00 - nginx/run 
+2023-06-17T04:40:19,919276600+00:00 | gunicorn/run | AzureML image information: openmpi4.1.0-ubuntu20.04, Materializaton Build:20230615.v1
+2023-06-17T04:40:19,921831500+00:00 | gunicorn/run | 
+2023-06-17T04:40:19,928840400+00:00 | gunicorn/run | 
+2023-06-17T04:40:19,931374400+00:00 | gunicorn/run | PATH environment variable: /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/bin:/opt/miniconda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+2023-06-17T04:40:19,933236800+00:00 | gunicorn/run | PYTHONPATH environment variable: 
+2023-06-17T04:40:19,935114000+00:00 | gunicorn/run | 
+2023-06-17T04:40:25,816545952+00:00 | gunicorn/run | CONDAPATH environment variable: /opt/miniconda
+
+# conda environments:
+#
+                      *  /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613
+base                     /opt/miniconda
+
+2023-06-17T04:40:29,020230643+00:00 | gunicorn/run | 
+2023-06-17T04:40:29,023082345+00:00 | gunicorn/run | Pip Dependencies (before dynamic installation)
+
+adal==1.2.7
+applicationinsights==0.11.10
+argcomplete==2.1.2
+attrs==23.1.0
+azure-common==1.1.28
+azure-core==1.27.1
+azure-graphrbac==0.61.1
+azure-identity==1.13.0
+azure-mgmt-authorization==2.0.0
+azure-mgmt-containerregistry==10.1.0
+azure-mgmt-core==1.3.0
+azure-mgmt-keyvault==10.2.2
+azure-mgmt-resource==21.2.1
+azure-mgmt-storage==20.0.0
+azure-storage-blob==1.5.0
+azure-storage-common==1.4.2
+azureml-core==1.43.0
+azureml-dataprep==4.0.4
+azureml-dataprep-native==38.0.0
+azureml-dataprep-rslex==2.6.3
+azureml-dataset-runtime==1.43.0.post2
+azureml-defaults==1.43.0
+azureml-designer-classic-modules==0.0.177
+azureml-designer-core==0.0.77
+azureml-designer-internal==0.0.65
+azureml-inference-server-http==0.4.14
+azureml-interpret==1.43.0
+azureml-model-management-sdk==1.0.1b6.post1
+azureml-pipeline-core==1.43.0
+azureml-telemetry==1.43.0
+backports.tempfile==1.0
+backports.weakref==1.0.post1
+bcrypt==4.0.1
+blis==0.2.4
+cachetools==5.3.1
+certifi==2023.5.7
+cffi==1.15.1
+chardet==3.0.4
+charset-normalizer==3.1.0
+click==7.1.2
+cloudpickle==2.2.1
+configparser==3.7.4
+contextlib2==21.6.0
+cryptography==41.0.1
+cycler==0.11.0
+cymem==2.0.7
+dill==0.3.6
+distro==1.4.0
+docker==5.0.3
+dotnetcore2==3.1.23
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.1.0/en_core_web_sm-2.1.0.tar.gz
+Flask==1.0.3
+fusepy==3.0.1
+gensim==3.8.3
+google-api-core==2.11.1
+google-auth==2.20.0
+googleapis-common-protos==1.59.1
+gunicorn==20.1.0
+humanfriendly==10.0
+idna==3.4
+imbalanced-learn==0.4.3
+inference-schema==1.3.0
+interpret-community==0.26.0
+interpret-core==0.2.7
+isodate==0.6.1
+itsdangerous==1.1.0
+jeepney==0.8.0
+Jinja2==3.0.3
+jmespath==1.0.0
+joblib==0.14.0
+json-logging-py==0.2
+jsonpickle==2.2.0
+jsonschema==3.0.1
+kiwisolver==1.4.4
+knack==0.9.0
+liac-arff==2.5.0
+lightgbm==3.2.1
+llvmlite==0.36.0
+MarkupSafe==2.1.3
+matplotlib==3.1.3
+ml-wrappers==0.2.0
+more-itertools==6.0.0
+msal==1.22.0
+msal-extensions==1.0.0
+msrest==0.6.21
+msrestazure==0.6.4
+murmurhash==1.0.9
+ndg-httpsclient==0.5.1
+nimbusml==1.8.0
+numba==0.53.1
+numpy==1.19.1
+oauthlib==3.2.2
+opencensus==0.11.2
+opencensus-context==0.1.3
+opencensus-ext-azure==1.1.9
+packaging==23.1
+pandas==1.0.4
+paramiko==2.12.0
+pathspec==0.11.1
+Pillow==9.0.1
+pkginfo==1.9.6
+plac==0.9.6
+portalocker==2.7.0
+preshed==2.0.1
+protobuf==4.23.3
+psutil==5.9.5
+pyarrow==0.16.0
+pyasn1==0.5.0
+pyasn1-modules==0.3.0
+pycparser==2.21
+pycryptodomex==3.7.3
+Pygments==2.15.1
+PyJWT==2.7.0
+PyNaCl==1.5.0
+pyOpenSSL==22.1.0
+pyparsing==3.0.9
+pyrsistent==0.19.3
+python-dateutil==2.8.2
+pytz==2023.3
+PyYAML==6.0
+requests==2.31.0
+requests-oauthlib==1.3.1
+rsa==4.9
+ruamel.yaml==0.16.10
+ruamel.yaml.clib==0.2.7
+scikit-learn==0.22.2
+scikit-surprise==1.1.0
+scipy==1.4.1
+seaborn==0.10.0
+SecretStorage==3.3.3
+shap==0.39.0
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+slicer==0.0.7
+smart-open==6.3.0
+spacy==2.1.7
+srsly==1.0.6
+tabulate==0.9.0
+thinc==7.0.8
+tqdm==4.65.0
+typing-extensions==4.6.3
+urllib3==2.0.3
+wasabi==0.10.1
+websocket-client==1.5.3
+Werkzeug==1.0.1
+wrapt==1.12.1
+
+2023-06-17T04:40:32,417326092+00:00 | gunicorn/run | 
+2023-06-17T04:40:32,419575192+00:00 | gunicorn/run | ###############################################
+2023-06-17T04:40:32,421576892+00:00 | gunicorn/run | Checking if the Python package azureml-inference-server-http is installed
+2023-06-17T04:40:32,423494392+00:00 | gunicorn/run | ###############################################
+2023-06-17T04:40:32,425177292+00:00 | gunicorn/run | 
+2023-06-17T04:40:36,010741067+00:00 | gunicorn/run | 
+2023-06-17T04:40:36,017341367+00:00 | gunicorn/run | ###############################################
+2023-06-17T04:40:36,020706067+00:00 | gunicorn/run | AzureML Inference Server
+2023-06-17T04:40:36,026157167+00:00 | gunicorn/run | ###############################################
+2023-06-17T04:40:36,094783264+00:00 | gunicorn/run | 
+2023-06-17T04:40:39,511224107+00:00 | gunicorn/run | Starting AzureML Inference Server HTTP.
+
+Azure ML Inferencing HTTP server v0.4.14
+
+
+Server Settings
+---------------
+Entry Script Name: main.py
+Model Directory: /var/azureml-app/azureml-models/amlstudio-predict-diabetes/1
+Worker Count: 1
+Worker Timeout (seconds): 300
+Server Port: 31311
+Application Insights Enabled: false
+Application Insights Key: None
+
+
+Server Routes
+---------------
+Liveness Probe: GET   127.0.0.1:31311/
+Score:          POST  127.0.0.1:31311/score
+
+Starting gunicorn 20.1.0
+Listening at: http://0.0.0.0:31311 (69)
+Using worker: sync
+Booting worker with pid: 131
+Collecting azureml-designer-serving==0.0.12
+  Downloading azureml_designer_serving-0.0.12-py3-none-any.whl (20 kB)
+Requirement already satisfied: azureml-defaults in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-designer-serving==0.0.12) (1.43.0)
+Collecting azureml-contrib-services
+  Downloading azureml_contrib_services-1.51.0-py3-none-any.whl (4.8 kB)
+Requirement already satisfied: azureml-designer-core[image,model]>=0.0.32 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-designer-serving==0.0.12) (0.0.77)
+Requirement already satisfied: azureml-core~=1.43.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-defaults->azureml-designer-serving==0.0.12) (1.43.0)
+Requirement already satisfied: azureml-inference-server-http~=0.4.1 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-defaults->azureml-designer-serving==0.0.12) (0.4.14)
+Requirement already satisfied: azureml-dataset-runtime[fuse]~=1.43.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-defaults->azureml-designer-serving==0.0.12) (1.43.0.post2)
+Requirement already satisfied: json-logging-py==0.2 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-defaults->azureml-designer-serving==0.0.12) (0.2)
+Requirement already satisfied: configparser==3.7.4 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-defaults->azureml-designer-serving==0.0.12) (3.7.4)
+Requirement already satisfied: Flask in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-contrib-services->azureml-designer-serving==0.0.12) (1.0.3)
+Requirement already satisfied: more-itertools==6.0.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-designer-core[image,model]>=0.0.32->azureml-designer-serving==0.0.12) (6.0.0)
+Requirement already satisfied: pycryptodomex==3.7.3 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-designer-core[image,model]>=0.0.32->azureml-designer-serving==0.0.12) (3.7.3)
+Requirement already satisfied: ruamel.yaml==0.16.10 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-designer-core[image,model]>=0.0.32->azureml-designer-serving==0.0.12) (0.16.10)
+Requirement already satisfied: distro==1.4.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-designer-core[image,model]>=0.0.32->azureml-designer-serving==0.0.12) (1.4.0)
+Collecting python-dateutil==2.8.1
+  Downloading python_dateutil-2.8.1-py2.py3-none-any.whl (227 kB)
+Requirement already satisfied: jsonschema==3.0.1 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-designer-core[image,model]>=0.0.32->azureml-designer-serving==0.0.12) (3.0.1)
+Requirement already satisfied: numpy==1.19.1 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-designer-core[image,model]>=0.0.32->azureml-designer-serving==0.0.12) (1.19.1)
+Requirement already satisfied: pandas==1.0.4 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-designer-core[image,model]>=0.0.32->azureml-designer-serving==0.0.12) (1.0.4)
+Requirement already satisfied: pyarrow==0.16.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-designer-core[image,model]>=0.0.32->azureml-designer-serving==0.0.12) (0.16.0)
+Requirement already satisfied: Pillow==9.0.1; extra == "image" in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-designer-core[image,model]>=0.0.32->azureml-designer-serving==0.0.12) (9.0.1)
+Collecting cloudpickle==1.2.2; extra == "model"
+  Downloading cloudpickle-1.2.2-py2.py3-none-any.whl (25 kB)
+Requirement already satisfied: jmespath<=1.0.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (1.0.0)
+Requirement already satisfied: ndg-httpsclient<=0.5.1 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (0.5.1)
+Requirement already satisfied: PyJWT<3.0.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (2.7.0)
+Requirement already satisfied: azure-mgmt-core<=1.3.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (1.3.0)
+Requirement already satisfied: backports.tempfile in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (1.0)
+Requirement already satisfied: azure-mgmt-containerregistry<11,>=8.2.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (10.1.0)
+Requirement already satisfied: docker<6.0.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (5.0.3)
+Requirement already satisfied: azure-mgmt-resource<22.0.0,>=15.0.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (21.2.1)
+Requirement already satisfied: pytz in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (2023.3)
+Requirement already satisfied: msrestazure<=0.6.4,>=0.4.33 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (0.6.4)
+Requirement already satisfied: knack~=0.9.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (0.9.0)
+Requirement already satisfied: pkginfo in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (1.9.6)
+Requirement already satisfied: azure-core<2.0.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (1.27.1)
+Requirement already satisfied: pathspec<1.0.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (0.11.1)
+Requirement already satisfied: humanfriendly<11.0,>=4.7 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (10.0)
+Requirement already satisfied: contextlib2<22.0.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (21.6.0)
+Requirement already satisfied: argcomplete<3 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (2.1.2)
+Requirement already satisfied: pyopenssl<23.0.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (22.1.0)
+Requirement already satisfied: azure-common<2.0.0,>=1.1.12 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (1.1.28)
+Collecting packaging<22.0,>=20.0
+  Downloading packaging-21.3-py3-none-any.whl (40 kB)
+Requirement already satisfied: paramiko<3.0.0,>=2.0.8 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (2.12.0)
+Requirement already satisfied: msal<2.0.0,>=1.15.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (1.22.0)
+Collecting urllib3<=1.26.9,>=1.23
+  Downloading urllib3-1.26.9-py2.py3-none-any.whl (138 kB)
+Requirement already satisfied: adal<=1.2.7,>=1.2.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (1.2.7)
+Requirement already satisfied: azure-mgmt-keyvault<11.0.0,>=0.40.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (10.2.2)
+Collecting cryptography!=1.9,!=2.0.*,!=2.1.*,!=2.2.*,<38.0.0
+  Downloading cryptography-37.0.4-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.2 MB)
+Requirement already satisfied: jsonpickle<3.0.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (2.2.0)
+Requirement already satisfied: azure-graphrbac<1.0.0,>=0.40.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (0.61.1)
+Requirement already satisfied: SecretStorage<4.0.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (3.3.3)
+Requirement already satisfied: msrest<0.7.0,>=0.5.1 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (0.6.21)
+Requirement already satisfied: requests[socks]<3.0.0,>=2.19.1 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (2.31.0)
+Requirement already satisfied: azure-mgmt-storage<=20.0.0,>=16.0.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (20.0.0)
+Requirement already satisfied: msal-extensions<=1.0.0,>=0.3.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (1.0.0)
+Requirement already satisfied: azure-mgmt-authorization<3,>=0.40.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (2.0.0)
+Requirement already satisfied: applicationinsights>=0.11.7 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-inference-server-http~=0.4.1->azureml-defaults->azureml-designer-serving==0.0.12) (0.11.10)
+Requirement already satisfied: inference-schema==1.3.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-inference-server-http~=0.4.1->azureml-defaults->azureml-designer-serving==0.0.12) (1.3.0)
+Requirement already satisfied: click<8.0,>=5.1 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-inference-server-http~=0.4.1->azureml-defaults->azureml-designer-serving==0.0.12) (7.1.2)
+Requirement already satisfied: opencensus-ext-azure~=1.1.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-inference-server-http~=0.4.1->azureml-defaults->azureml-designer-serving==0.0.12) (1.1.9)
+Requirement already satisfied: itsdangerous<2.0,>=0.24 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-inference-server-http~=0.4.1->azureml-defaults->azureml-designer-serving==0.0.12) (1.1.0)
+Requirement already satisfied: Jinja2<3.1,>=2.10.1 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-inference-server-http~=0.4.1->azureml-defaults->azureml-designer-serving==0.0.12) (3.0.3)
+Requirement already satisfied: gunicorn==20.1.0; platform_system != "Windows" in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-inference-server-http~=0.4.1->azureml-defaults->azureml-designer-serving==0.0.12) (20.1.0)
+Requirement already satisfied: Werkzeug<2.0,>=0.15 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-inference-server-http~=0.4.1->azureml-defaults->azureml-designer-serving==0.0.12) (1.0.1)
+Requirement already satisfied: azureml-dataprep<4.1.0a,>=4.0.0a in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-dataset-runtime[fuse]~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (4.0.4)
+Requirement already satisfied: fusepy<4.0.0,>=3.0.1; extra == "fuse" in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-dataset-runtime[fuse]~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (3.0.1)
+Requirement already satisfied: ruamel.yaml.clib>=0.1.2; platform_python_implementation == "CPython" and python_version < "3.9" in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from ruamel.yaml==0.16.10->azureml-designer-core[image,model]>=0.0.32->azureml-designer-serving==0.0.12) (0.2.7)
+Requirement already satisfied: six>=1.5 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from python-dateutil==2.8.1->azureml-designer-core[image,model]>=0.0.32->azureml-designer-serving==0.0.12) (1.16.0)
+Requirement already satisfied: pyrsistent>=0.14.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from jsonschema==3.0.1->azureml-designer-core[image,model]>=0.0.32->azureml-designer-serving==0.0.12) (0.19.3)
+Requirement already satisfied: setuptools in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from jsonschema==3.0.1->azureml-designer-core[image,model]>=0.0.32->azureml-designer-serving==0.0.12) (67.7.2)
+Requirement already satisfied: attrs>=17.4.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from jsonschema==3.0.1->azureml-designer-core[image,model]>=0.0.32->azureml-designer-serving==0.0.12) (23.1.0)
+Requirement already satisfied: pyasn1>=0.1.1 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from ndg-httpsclient<=0.5.1->azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (0.5.0)
+Requirement already satisfied: backports.weakref in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from backports.tempfile->azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (1.0.post1)
+Requirement already satisfied: websocket-client>=0.32.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from docker<6.0.0->azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (1.5.3)
+Requirement already satisfied: tabulate in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from knack~=0.9.0->azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (0.9.0)
+Requirement already satisfied: pygments in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from knack~=0.9.0->azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (2.15.1)
+Requirement already satisfied: pyyaml in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from knack~=0.9.0->azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (6.0)
+Requirement already satisfied: typing-extensions>=4.3.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azure-core<2.0.0->azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (4.6.3)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from packaging<22.0,>=20.0->azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (3.0.9)
+Requirement already satisfied: pynacl>=1.0.1 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from paramiko<3.0.0,>=2.0.8->azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (1.5.0)
+Requirement already satisfied: bcrypt>=3.1.3 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from paramiko<3.0.0,>=2.0.8->azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (4.0.1)
+Requirement already satisfied: isodate<1.0.0,>=0.6.1 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azure-mgmt-keyvault<11.0.0,>=0.40.0->azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (0.6.1)
+Requirement already satisfied: cffi>=1.12 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from cryptography!=1.9,!=2.0.*,!=2.1.*,!=2.2.*,<38.0.0->azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (1.15.1)
+Requirement already satisfied: jeepney>=0.6 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from SecretStorage<4.0.0->azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (0.8.0)
+Requirement already satisfied: certifi>=2017.4.17 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from msrest<0.7.0,>=0.5.1->azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (2023.5.7)
+Requirement already satisfied: requests-oauthlib>=0.5.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from msrest<0.7.0,>=0.5.1->azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (1.3.1)
+Requirement already satisfied: idna<4,>=2.5 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from requests[socks]<3.0.0,>=2.19.1->azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (3.4)
+Requirement already satisfied: charset-normalizer<4,>=2 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from requests[socks]<3.0.0,>=2.19.1->azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (3.1.0)
+Collecting PySocks!=1.5.7,>=1.5.6; extra == "socks"
+  Downloading PySocks-1.7.1-py3-none-any.whl (16 kB)
+Requirement already satisfied: portalocker<3,>=1.0; python_version >= "3.5" and platform_system != "Windows" in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from msal-extensions<=1.0.0,>=0.3.0->azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (2.7.0)
+Requirement already satisfied: wrapt<=1.12.1,>=1.11.1 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from inference-schema==1.3.0->azureml-inference-server-http~=0.4.1->azureml-defaults->azureml-designer-serving==0.0.12) (1.12.1)
+Requirement already satisfied: opencensus<1.0.0,>=0.11.2 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from opencensus-ext-azure~=1.1.0->azureml-inference-server-http~=0.4.1->azureml-defaults->azureml-designer-serving==0.0.12) (0.11.2)
+Requirement already satisfied: azure-identity<2.0.0,>=1.5.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from opencensus-ext-azure~=1.1.0->azureml-inference-server-http~=0.4.1->azureml-defaults->azureml-designer-serving==0.0.12) (1.13.0)
+Requirement already satisfied: psutil>=5.6.3 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from opencensus-ext-azure~=1.1.0->azureml-inference-server-http~=0.4.1->azureml-defaults->azureml-designer-serving==0.0.12) (5.9.5)
+Requirement already satisfied: MarkupSafe>=2.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from Jinja2<3.1,>=2.10.1->azureml-inference-server-http~=0.4.1->azureml-defaults->azureml-designer-serving==0.0.12) (2.1.3)
+Requirement already satisfied: azureml-dataprep-native<39.0.0,>=38.0.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-dataprep<4.1.0a,>=4.0.0a->azureml-dataset-runtime[fuse]~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (38.0.0)
+Requirement already satisfied: azureml-dataprep-rslex~=2.6.0dev0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-dataprep<4.1.0a,>=4.0.0a->azureml-dataset-runtime[fuse]~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (2.6.3)
+Requirement already satisfied: dotnetcore2<4.0.0,>=3.0.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from azureml-dataprep<4.1.0a,>=4.0.0a->azureml-dataset-runtime[fuse]~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (3.1.23)
+Requirement already satisfied: pycparser in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from cffi>=1.12->cryptography!=1.9,!=2.0.*,!=2.1.*,!=2.2.*,<38.0.0->azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (2.21)
+Requirement already satisfied: oauthlib>=3.0.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from requests-oauthlib>=0.5.0->msrest<0.7.0,>=0.5.1->azureml-core~=1.43.0->azureml-defaults->azureml-designer-serving==0.0.12) (3.2.2)
+Requirement already satisfied: opencensus-context>=0.1.3 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from opencensus<1.0.0,>=0.11.2->opencensus-ext-azure~=1.1.0->azureml-inference-server-http~=0.4.1->azureml-defaults->azureml-designer-serving==0.0.12) (0.1.3)
+Requirement already satisfied: google-api-core<3.0.0,>=1.0.0; python_version >= "3.6" in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from opencensus<1.0.0,>=0.11.2->opencensus-ext-azure~=1.1.0->azureml-inference-server-http~=0.4.1->azureml-defaults->azureml-designer-serving==0.0.12) (2.11.1)
+Requirement already satisfied: protobuf!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<5.0.0.dev0,>=3.19.5 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from google-api-core<3.0.0,>=1.0.0; python_version >= "3.6"->opencensus<1.0.0,>=0.11.2->opencensus-ext-azure~=1.1.0->azureml-inference-server-http~=0.4.1->azureml-defaults->azureml-designer-serving==0.0.12) (4.23.3)
+Requirement already satisfied: googleapis-common-protos<2.0.dev0,>=1.56.2 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from google-api-core<3.0.0,>=1.0.0; python_version >= "3.6"->opencensus<1.0.0,>=0.11.2->opencensus-ext-azure~=1.1.0->azureml-inference-server-http~=0.4.1->azureml-defaults->azureml-designer-serving==0.0.12) (1.59.1)
+Requirement already satisfied: google-auth<3.0.dev0,>=2.14.1 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from google-api-core<3.0.0,>=1.0.0; python_version >= "3.6"->opencensus<1.0.0,>=0.11.2->opencensus-ext-azure~=1.1.0->azureml-inference-server-http~=0.4.1->azureml-defaults->azureml-designer-serving==0.0.12) (2.20.0)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from google-auth<3.0.dev0,>=2.14.1->google-api-core<3.0.0,>=1.0.0; python_version >= "3.6"->opencensus<1.0.0,>=0.11.2->opencensus-ext-azure~=1.1.0->azureml-inference-server-http~=0.4.1->azureml-defaults->azureml-designer-serving==0.0.12) (0.3.0)
+Requirement already satisfied: rsa<5,>=3.1.4 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from google-auth<3.0.dev0,>=2.14.1->google-api-core<3.0.0,>=1.0.0; python_version >= "3.6"->opencensus<1.0.0,>=0.11.2->opencensus-ext-azure~=1.1.0->azureml-inference-server-http~=0.4.1->azureml-defaults->azureml-designer-serving==0.0.12) (4.9)
+Requirement already satisfied: cachetools<6.0,>=2.0.0 in /azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages (from google-auth<3.0.dev0,>=2.14.1->google-api-core<3.0.0,>=1.0.0; python_version >= "3.6"->opencensus<1.0.0,>=0.11.2->opencensus-ext-azure~=1.1.0->azureml-inference-server-http~=0.4.1->azureml-defaults->azureml-designer-serving==0.0.12) (5.3.1)
+Installing collected packages: azureml-contrib-services, azureml-designer-serving, python-dateutil, cloudpickle, packaging, urllib3, cryptography, PySocks
+  Attempting uninstall: python-dateutil
+    Found existing installation: python-dateutil 2.8.2
+    Uninstalling python-dateutil-2.8.2:
+      Successfully uninstalled python-dateutil-2.8.2
+  Attempting uninstall: cloudpickle
+    Found existing installation: cloudpickle 2.2.1
+    Uninstalling cloudpickle-2.2.1:
+      Successfully uninstalled cloudpickle-2.2.1
+  Attempting uninstall: packaging
+    Found existing installation: packaging 23.1
+    Uninstalling packaging-23.1:
+      Successfully uninstalled packaging-23.1
+  Attempting uninstall: urllib3
+    Found existing installation: urllib3 2.0.3
+    Uninstalling urllib3-2.0.3:
+      Successfully uninstalled urllib3-2.0.3
+  Attempting uninstall: cryptography
+    Found existing installation: cryptography 41.0.1
+    Uninstalling cryptography-41.0.1:
+      Successfully uninstalled cryptography-41.0.1
+Successfully installed PySocks-1.7.1 azureml-contrib-services-1.51.0 azureml-designer-serving-0.0.12 cloudpickle-1.2.2 cryptography-37.0.4 packaging-21.3 python-dateutil-2.8.1 urllib3-1.26.9
+ERROR: After October 2020 you may experience errors when installing or updating packages. This is because pip will change the way that it resolves dependency conflicts.
+
+We recommend you use --use-feature=2020-resolver to test your packages with the new resolver before it becomes the default.
+
+pyopenssl 22.1.0 requires cryptography<39,>=38.0.0, but you'll have cryptography 37.0.4 which is incompatible.
+azureml-dataprep 4.0.4 requires azure-identity==1.7.0, but you'll have azure-identity 1.13.0 which is incompatible.
+azure-mgmt-resource 21.2.1 requires azure-mgmt-core<2.0.0,>=1.3.2, but you'll have azure-mgmt-core 1.3.0 which is incompatible.
+azure-mgmt-resource 21.2.1 requires msrest>=0.7.1, but you'll have msrest 0.6.21 which is incompatible.
+azure-mgmt-containerregistry 10.1.0 requires azure-mgmt-core<2.0.0,>=1.3.2, but you'll have azure-mgmt-core 1.3.0 which is incompatible.
+azure-mgmt-containerregistry 10.1.0 requires msrest>=0.7.1, but you'll have msrest 0.6.21 which is incompatible.
+Failure while loading azureml_run_type_providers. Failed to load entrypoint azureml.scriptrun = azureml.core.script_run:ScriptRun._from_run_dto with exception [Errno 2] No such file or directory: '/azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages/python_dateutil-2.8.2.dist-info/METADATA'.
+Failure while loading azureml_run_type_providers. Failed to load entrypoint azureml.PipelineRun = azureml.pipeline.core.run:PipelineRun._from_dto with exception (cryptography 41.0.1 (/azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages), Requirement.parse('cryptography!=1.9,!=2.0.*,!=2.1.*,!=2.2.*,<38.0.0'), {'azureml-core'}).
+Failure while loading azureml_run_type_providers. Failed to load entrypoint azureml.ReusedStepRun = azureml.pipeline.core.run:StepRun._from_reused_dto with exception (cryptography 41.0.1 (/azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages), Requirement.parse('cryptography!=1.9,!=2.0.*,!=2.1.*,!=2.2.*,<38.0.0'), {'azureml-core'}).
+Failure while loading azureml_run_type_providers. Failed to load entrypoint azureml.StepRun = azureml.pipeline.core.run:StepRun._from_dto with exception (cryptography 41.0.1 (/azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages), Requirement.parse('cryptography!=1.9,!=2.0.*,!=2.1.*,!=2.2.*,<38.0.0'), {'azureml-core'}).
+Initializing logger
+2023-06-17 04:41:03,391 | root | INFO | Starting up app insights client
+logging socket was found. logging is available.
+logging socket was found. logging is available.
+2023-06-17 04:41:03,392 | root | INFO | Starting up request id generator
+2023-06-17 04:41:03,392 | root | INFO | Starting up app insight hooks
+2023-06-17 04:41:03,394 | root | INFO | Invoking user's init function
+Trying to reload werkzeug.
+Successfully reloaded werkzeug.
+pip freeze result:
+adal==1.2.7
+applicationinsights==0.11.10
+argcomplete==2.1.2
+attrs==23.1.0
+azure-common==1.1.28
+azure-core==1.27.1
+azure-graphrbac==0.61.1
+azure-identity==1.13.0
+azure-mgmt-authorization==2.0.0
+azure-mgmt-containerregistry==10.1.0
+azure-mgmt-core==1.3.0
+azure-mgmt-keyvault==10.2.2
+azure-mgmt-resource==21.2.1
+azure-mgmt-storage==20.0.0
+azure-storage-blob==1.5.0
+azure-storage-common==1.4.2
+azureml-contrib-services==1.51.0
+azureml-core==1.43.0
+azureml-dataprep==4.0.4
+azureml-dataprep-native==38.0.0
+azureml-dataprep-rslex==2.6.3
+azureml-dataset-runtime==1.43.0.post2
+azureml-defaults==1.43.0
+azureml-designer-classic-modules==0.0.177
+azureml-designer-core==0.0.77
+azureml-designer-internal==0.0.65
+azureml-designer-serving==0.0.12
+azureml-inference-server-http==0.4.14
+azureml-interpret==1.43.0
+azureml-model-management-sdk==1.0.1b6.post1
+azureml-pipeline-core==1.43.0
+azureml-telemetry==1.43.0
+backports.tempfile==1.0
+backports.weakref==1.0.post1
+bcrypt==4.0.1
+blis==0.2.4
+cachetools==5.3.1
+certifi==2023.5.7
+cffi==1.15.1
+chardet==3.0.4
+charset-normalizer==3.1.0
+click==7.1.2
+cloudpickle==1.2.2
+configparser==3.7.4
+contextlib2==21.6.0
+cryptography==37.0.4
+cycler==0.11.0
+cymem==2.0.7
+dill==0.3.6
+distro==1.4.0
+docker==5.0.3
+dotnetcore2==3.1.23
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.1.0/en_core_web_sm-2.1.0.tar.gz
+Flask==1.0.3
+fusepy==3.0.1
+gensim==3.8.3
+google-api-core==2.11.1
+google-auth==2.20.0
+googleapis-common-protos==1.59.1
+gunicorn==20.1.0
+humanfriendly==10.0
+idna==3.4
+imbalanced-learn==0.4.3
+inference-schema==1.3.0
+interpret-community==0.26.0
+interpret-core==0.2.7
+isodate==0.6.1
+itsdangerous==1.1.0
+jeepney==0.8.0
+Jinja2==3.0.3
+jmespath==1.0.0
+joblib==0.14.0
+json-logging-py==0.2
+jsonpickle==2.2.0
+jsonschema==3.0.1
+kiwisolver==1.4.4
+knack==0.9.0
+liac-arff==2.5.0
+lightgbm==3.2.1
+llvmlite==0.36.0
+MarkupSafe==2.1.3
+matplotlib==3.1.3
+ml-wrappers==0.2.0
+more-itertools==6.0.0
+msal==1.22.0
+msal-extensions==1.0.0
+msrest==0.6.21
+msrestazure==0.6.4
+murmurhash==1.0.9
+ndg-httpsclient==0.5.1
+nimbusml==1.8.0
+numba==0.53.1
+numpy==1.19.1
+oauthlib==3.2.2
+opencensus==0.11.2
+opencensus-context==0.1.3
+opencensus-ext-azure==1.1.9
+packaging==21.3
+pandas==1.0.4
+paramiko==2.12.0
+pathspec==0.11.1
+Pillow==9.0.1
+pkginfo==1.9.6
+plac==0.9.6
+portalocker==2.7.0
+preshed==2.0.1
+protobuf==4.23.3
+psutil==5.9.5
+pyarrow==0.16.0
+pyasn1==0.5.0
+pyasn1-modules==0.3.0
+pycparser==2.21
+pycryptodomex==3.7.3
+Pygments==2.15.1
+PyJWT==2.7.0
+PyNaCl==1.5.0
+pyOpenSSL==22.1.0
+pyparsing==3.0.9
+pyrsistent==0.19.3
+PySocks==1.7.1
+python-dateutil==2.8.1
+pytz==2023.3
+PyYAML==6.0
+requests==2.31.0
+requests-oauthlib==1.3.1
+rsa==4.9
+ruamel.yaml==0.16.10
+ruamel.yaml.clib==0.2.7
+scikit-learn==0.22.2
+scikit-surprise==1.1.0
+scipy==1.4.1
+seaborn==0.10.0
+SecretStorage==3.3.3
+shap==0.39.0
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+slicer==0.0.7
+smart-open==6.3.0
+spacy==2.1.7
+srsly==1.0.6
+tabulate==0.9.0
+thinc==7.0.8
+tqdm==4.65.0
+typing-extensions==4.6.3
+urllib3==1.26.9
+wasabi==0.10.1
+websocket-client==1.5.3
+Werkzeug==1.0.1
+wrapt==1.12.1
+
+Model: name=amlstudio-predict-diabetes, version=1
+Loading static source Resources/0/ - Start:
+Loaded TransformationDirectory(meta={'type': 'TransformationDirectory', 'extension': {}, 'transform_type': 'Pickle', 'file_path': 'data.itransform'}) from studiomodelpackage/Resources/0.
+Loading static source Resources/0/ - End with 2.4248s elapsed.
+Loading static source Resources/1/ - Start:
+Loaded ModelDirectory(meta={'type': 'ModelDirectory', 'extension': {}, 'model': 'model_spec.yaml', 'registerModel': True, 'modelOutputPath': 'trained_model_outputs'}) from studiomodelpackage/Resources/1.
+Loading static source Resources/1/ - End with 1.3595s elapsed.
+initializing node 1
+ALGHOST 0.0.177
+Load pyarrow.parquet explicitly: <module 'pyarrow.parquet' from '/azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages/pyarrow/parquet.py'>
+initializing node 2
+ALGHOST 0.0.177
+Load pyarrow.parquet explicitly: <module 'pyarrow.parquet' from '/azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages/pyarrow/parquet.py'>
+initializing node 3
+ALGHOST 0.0.177
+Load pyarrow.parquet explicitly: <module 'pyarrow.parquet' from '/azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages/pyarrow/parquet.py'>
+initializing node 4
+ALGHOST 0.0.177
+Load pyarrow.parquet explicitly: <module 'pyarrow.parquet' from '/azureml-envs/azureml_4ff7f00e049602698c9def2040d37613/lib/python3.8/site-packages/pyarrow/parquet.py'>
+Init: Graph has been loaded
+2023-06-17 04:41:09,200 | root | INFO | Users's init has completed successfully
+2023-06-17 04:41:09,209 | root | INFO | Skipping middleware: dbg_model_info as it's not enabled.
+2023-06-17 04:41:09,209 | root | INFO | Skipping middleware: dbg_resource_usage as it's not enabled.
+Found swagger file: /var/azureml-app/swagger.json
+Swagger file loaded.
+2023-06-17 04:41:09,224 | root | INFO | Scoring timeout is found from os.environ: 60000 ms
+2023-06-17 04:41:21,555 | root | INFO | 200
+127.0.0.1 - - [17/Jun/2023:04:41:21 +0000] "GET /swagger.json HTTP/1.0" 200 4270 "-" "Go-http-client/1.1"
+2023-06-17 04:41:22,859 | root | INFO | Scoring Timer is set to 60.0 seconds
+Handling http request - Start:
+2023-06-17 04:41:22,860 studio.azureml.designer.serving.dagengine.request_handler INFO       |   Run: is_classic = False, with_details = False, verbose = True
+2023-06-17 04:41:22,861 studio.core          INFO       |   Pre-processing - Start:
+2023-06-17 04:41:22,861 studio.core          INFO       |   Pre-processing - End with 0.0002s elapsed.
+2023-06-17 04:41:22,861 studio.core          INFO       |   Processing - Start:
+2023-06-17 04:41:22,911 studio.core          INFO       |   |   Executing node 1: Select Columns in Dataset - Start:
+2023-06-17 04:41:22,914 studio.common        DEBUG      |   |   |   Load schema successfully.
+2023-06-17 04:41:22,916 studio.modulehost    INFO       |   |   |   Return without parsing
+2023-06-17 04:41:22,917 studio.modulehost    INFO       |   |   |   Parse ColumnSelection parameter
+2023-06-17 04:41:22,918 studio.core          INFO       |   |   |   SelectColumnsModule.run - Start:
+2023-06-17 04:41:22,918 studio.core          DEBUG      |   |   |   |   kwargs:
+2023-06-17 04:41:22,920 studio.core          DEBUG      |   |   |   |   |   table = <azureml.studio.common.datatable.data_table.DataTable object at 0x7f8966050c10>
+2023-06-17 04:41:22,921 studio.core          DEBUG      |   |   |   |   |   feature_list = <azureml.studio.common.datatable.data_table.DataTableColumnSelection object at 0x7f8966050a00>
+2023-06-17 04:41:22,922 studio.core          DEBUG      |   |   |   |   validated_args:
+2023-06-17 04:41:22,925 studio.core          DEBUG      |   |   |   |   |   table = <azureml.studio.common.datatable.data_table.DataTable object at 0x7f8966050c10>
+2023-06-17 04:41:22,927 studio.core          DEBUG      |   |   |   |   |   feature_list = <azureml.studio.common.datatable.data_table.DataTableColumnSelection object at 0x7f8966050a00>
+2023-06-17 04:41:22,928 studio.module        INFO       |   |   |   |   Select column indexes from Dataset
+2023-06-17 04:41:22,934 studio.core          DEBUG      |   |   |   |   return:
+2023-06-17 04:41:22,934 studio.core          DEBUG      |   |   |   |   |   [0] = <DataTable (1 Rows, 8 Cols) at 0x00007F8966077550>
+2023-06-17 04:41:22,935 studio.core          INFO       |   |   |   SelectColumnsModule.run - End with 0.0167s elapsed.
+2023-06-17 04:41:22,936 studio.core          INFO       |   |   Executing node 1: Select Columns in Dataset - End with 0.0251s elapsed.
+2023-06-17 04:41:22,937 studio.core          INFO       |   |   Executing node 2: Apply Transformation - Start:
+2023-06-17 04:41:22,938 studio.common        DEBUG      |   |   |   Load schema successfully.
+2023-06-17 04:41:22,995 studio.modulehost    INFO       |   |   |   Return without parsing
+2023-06-17 04:41:22,996 studio.modulehost    INFO       |   |   |   Return without parsing
+2023-06-17 04:41:22,996 studio.core          INFO       |   |   |   ApplyTransformationModule.run - Start:
+2023-06-17 04:41:22,997 studio.core          DEBUG      |   |   |   |   kwargs:
+2023-06-17 04:41:22,998 studio.core          DEBUG      |   |   |   |   |   transform = <azureml.studio.modules.datatransform.scale_and_reduce.normalize_data.nomalize_transformer.NormalizeTransformer object at 0x7f8966819910>
+2023-06-17 04:41:22,999 studio.core          DEBUG      |   |   |   |   |   data = <azureml.studio.common.datatable.data_table.DataTable object at 0x7f8966050070>
+2023-06-17 04:41:23,001 studio.core          DEBUG      |   |   |   |   validated_args:
+2023-06-17 04:41:23,002 studio.core          DEBUG      |   |   |   |   |   transform = <azureml.studio.modules.datatransform.scale_and_reduce.normalize_data.nomalize_transformer.NormalizeTransformer object at 0x7f8966819910>
+2023-06-17 04:41:23,004 studio.core          DEBUG      |   |   |   |   |   data = <azureml.studio.common.datatable.data_table.DataTable object at 0x7f8966050070>
+2023-06-17 04:41:23,006 studio.core          INFO       |   |   |   |   NormalizeTransformer.apply - Start:
+2023-06-17 04:41:23,006 studio.core          INFO       |   |   |   |   |   DataTable.clone - Start:
+2023-06-17 04:41:23,007 studio.core          INFO       |   |   |   |   |   DataTable.clone - End with 0.0008s elapsed.
+2023-06-17 04:41:23,020 studio.core          INFO       |   |   |   |   NormalizeTransformer.apply - End with 0.0140s elapsed.
+2023-06-17 04:41:23,020 studio.core          DEBUG      |   |   |   |   return:
+2023-06-17 04:41:23,022 studio.core          DEBUG      |   |   |   |   |   [0] = <DataTable "Dataset" (1 Rows, 8 Cols) at 0x00007F8966077430>
+2023-06-17 04:41:23,022 studio.core          INFO       |   |   |   ApplyTransformationModule.run - End with 0.0253s elapsed.
+2023-06-17 04:41:23,025 studio.core          INFO       |   |   Executing node 2: Apply Transformation - End with 0.0880s elapsed.
+2023-06-17 04:41:23,027 studio.core          INFO       |   |   Executing node 3: Score Model - Start:
+2023-06-17 04:41:23,031 studio.common        DEBUG      |   |   |   Load schema successfully.
+2023-06-17 04:41:23,095 studio.modulehost    INFO       |   |   |   Return without parsing
+2023-06-17 04:41:23,095 studio.modulehost    INFO       |   |   |   Return without parsing
+2023-06-17 04:41:23,095 studio.modulehost    INFO       |   |   |   Parse bool parameter
+2023-06-17 04:41:23,096 studio.core          INFO       |   |   |   ScoreModelModule.run - Start:
+2023-06-17 04:41:23,096 studio.core          DEBUG      |   |   |   |   kwargs:
+2023-06-17 04:41:23,096 studio.core          DEBUG      |   |   |   |   |   learner = <azureml.studio.modules.ml.initialize_models.binary_classifier.logistic_regression_biclassifier.logistic_regression_biclassifier.LogisticRegressionBiClassifier object at 0x7f8966831550>
+2023-06-17 04:41:23,096 studio.core          DEBUG      |   |   |   |   |   test_data = <azureml.studio.common.datatable.data_table.DataTable object at 0x7f89660778e0>
+2023-06-17 04:41:23,096 studio.core          DEBUG      |   |   |   |   |   append_or_result_only = True
+2023-06-17 04:41:23,097 studio.core          DEBUG      |   |   |   |   validated_args:
+2023-06-17 04:41:23,098 studio.core          DEBUG      |   |   |   |   |   learner = <azureml.studio.modules.ml.initialize_models.binary_classifier.logistic_regression_biclassifier.logistic_regression_biclassifier.LogisticRegressionBiClassifier object at 0x7f8966831550>
+2023-06-17 04:41:23,101 studio.core          DEBUG      |   |   |   |   |   test_data = <azureml.studio.common.datatable.data_table.DataTable object at 0x7f89660778e0>
+2023-06-17 04:41:23,105 studio.core          DEBUG      |   |   |   |   |   append_or_result_only = True
+2023-06-17 04:41:23,106 studio.module        INFO       |   |   |   |   Validated testing data has 1 Row(s) and 8 Columns.
+2023-06-17 04:41:23,109 studio.module        INFO       |   |   |   |   Check if column types of test data are consistent with train data
+2023-06-17 04:41:23,112 studio.module        INFO       |   |   |   |   Building Normalizer - found Label column=None with encode_label=False
+2023-06-17 04:41:23,112 studio.module        INFO       |   |   |   |   Building normalizer - found 8 feature columns with normalize_number=True
+2023-06-17 04:41:23,112 studio.module        DEBUG      |   |   |   |   Building normalizer - found feature columns: "Pregnancies,PlasmaGlucose,DiastolicBloodPressure,TricepsThickness,SerumInsulin,BMI,DiabetesPedigree,Age".
+2023-06-17 04:41:23,113 studio.module        INFO       |   |   |   |   Building normalizer - found 8 numeric feature columns and 0 string feature columns to be encoded
+2023-06-17 04:41:23,113 studio.module        DEBUG      |   |   |   |   Building normalizer - found numeric feature columns to be encoded: "Pregnancies,PlasmaGlucose,DiastolicBloodPressure,TricepsThickness,SerumInsulin,BMI,DiabetesPedigree,Age".
+2023-06-17 04:41:23,113 studio.module        DEBUG      |   |   |   |   Building normalizer - found string feature columns to be encoded: "".
+2023-06-17 04:41:23,113 studio.module        INFO       |   |   |   |   Successfully built normalizer of test data.
+2023-06-17 04:41:23,113 studio.module        INFO       |   |   |   |   Successfully checked column types. Predicting.
+2023-06-17 04:41:23,113 studio.core          INFO       |   |   |   |   BaseLearner._apply_normalize - Start:
+2023-06-17 04:41:23,113 studio.core          INFO       |   |   |   |   |   Applying feature normalization - Start:
+2023-06-17 04:41:23,113 studio.module        INFO       |   |   |   |   |   |   Start to execute normalizer.transform with column_list: "Pregnancies,PlasmaGlucose,DiastolicBloodPressure,TricepsThickness,SerumInsulin,BMI,DiabetesPedigree,Age".
+2023-06-17 04:41:23,113 studio.module        INFO       |   |   |   |   |   |   Columns of input DataFrame: 8
+2023-06-17 04:41:23,114 studio.module        INFO       |   |   |   |   |   |   Columns to be transformed: 8
+2023-06-17 04:41:23,114 studio.module        INFO       |   |   |   |   |   |   Columns to be encoded: 8
+2023-06-17 04:41:23,114 studio.module        INFO       |   |   |   |   |   |   Transform with label column Diabetic.
+2023-06-17 04:41:23,114 studio.core          INFO       |   |   |   |   |   |   Normalizer._transform_numeric_feature_columns - Start:
+2023-06-17 04:41:23,118 studio.module        INFO       |   |   |   |   |   |   |   Successfully encoded 8 numeric feature columns.
+2023-06-17 04:41:23,119 studio.core          INFO       |   |   |   |   |   |   Normalizer._transform_numeric_feature_columns - End with 0.0050s elapsed.
+2023-06-17 04:41:23,119 studio.module        INFO       |   |   |   |   |   |   Construct train set complete.
+2023-06-17 04:41:23,120 studio.core          INFO       |   |   |   |   |   Applying feature normalization - End with 0.0064s elapsed.
+2023-06-17 04:41:23,121 studio.core          INFO       |   |   |   |   BaseLearner._apply_normalize - End with 0.0071s elapsed.
+2023-06-17 04:41:23,122 studio.core          INFO       |   |   |   |   BaseLearner._predict - Start:
+2023-06-17 04:41:23,122 studio.core          INFO       |   |   |   |   |   Predicting probability - Start:
+2023-06-17 04:41:23,123 studio.core          INFO       |   |   |   |   |   Predicting probability - End with 0.0007s elapsed.
+2023-06-17 04:41:23,123 studio.core          INFO       |   |   |   |   |   calculating argmax(Probability) - Start:
+2023-06-17 04:41:23,123 studio.core          INFO       |   |   |   |   |   calculating argmax(Probability) - End with 0.0000s elapsed.
+2023-06-17 04:41:23,123 studio.core          INFO       |   |   |   |   BaseLearner._predict - End with 0.0017s elapsed.
+2023-06-17 04:41:23,124 studio.module        INFO       |   |   |   |   Successfully predicted.
+2023-06-17 04:41:23,125 studio.module        INFO       |   |   |   |   Found 2 label classes in classes_ attribute.
+2023-06-17 04:41:23,125 studio.module        INFO       |   |   |   |   Using 1 as probability column.
+2023-06-17 04:41:23,133 studio.module        INFO       |   |   |   |   Binary Classification Model Scored Columns are: 
+2023-06-17 04:41:23,133 studio.module        INFO       |   |   |   |   There are 2 score columns: "Binary Class Assigned Labels,Calibrated Score"
+2023-06-17 04:41:23,133 studio.core          DEBUG      |   |   |   |   return:
+2023-06-17 04:41:23,134 studio.core          DEBUG      |   |   |   |   |   [0] = <DataTable "Dataset" (1 Rows, 10 Cols) at 0x00007F89660778E0>
+2023-06-17 04:41:23,134 studio.core          INFO       |   |   |   ScoreModelModule.run - End with 0.0382s elapsed.
+2023-06-17 04:41:23,135 studio.core          INFO       |   |   Executing node 3: Score Model - End with 0.1075s elapsed.
+2023-06-17 04:41:23,136 studio.core          INFO       |   |   Executing node 4: Execute Python Script - Start:
+2023-06-17 04:41:23,194 studio.common        DEBUG      |   |   |   Load schema successfully.
+2023-06-17 04:41:23,197 studio.modulehost    INFO       |   |   |   Return without parsing
+2023-06-17 04:41:23,197 studio.modulehost    INFO       |   |   |   Parse str parameter
+2023-06-17 04:41:23,199 studio.core          INFO       |   |   |   ExecutePythonScriptModule.run - Start:
+2023-06-17 04:41:23,200 studio.core          DEBUG      |   |   |   |   kwargs:
+2023-06-17 04:41:23,201 studio.core          DEBUG      |   |   |   |   |   dataset1 = <azureml.studio.common.datatable.data_table.DataTable object at 0x7f8966001d60>
+2023-06-17 04:41:23,201 studio.core          DEBUG      |   |   |   |   |   python_stream_reader = import pandas as pd
+
+def azureml_main(dataframe1 = None, dataframe2 = None):
+... (omitted 4 lines) ...
+                        inplace=True)
+    return scored_results
+2023-06-17 04:41:23,202 studio.core          DEBUG      |   |   |   |   validated_args:
+2023-06-17 04:41:23,202 studio.core          DEBUG      |   |   |   |   |   dataset1 = <azureml.studio.common.datatable.data_table.DataTable object at 0x7f8966001d60>
+2023-06-17 04:41:23,203 studio.core          DEBUG      |   |   |   |   |   python_stream_reader = import pandas as pd
+
+def azureml_main(dataframe1 = None, dataframe2 = None):
+... (omitted 4 lines) ...
+                        inplace=True)
+    return scored_results
+2023-06-17 04:41:23,203 studio.core          DEBUG      |   |   |   |   |   dataset2 = None
+2023-06-17 04:41:23,203 studio.core          DEBUG      |   |   |   |   |   bundle_file = None
+2023-06-17 04:41:23,204 studio.core          DEBUG      |   |   |   |   |   py_lib_version = None
+2023-06-17 04:41:23,205 studio.module        INFO       |   |   |   |   Prepare python script
+2023-06-17 04:41:23,206 studio.module        INFO       |   |   |   |   Check and extract bundle zip file to path ./Script Bundle
+2023-06-17 04:41:23,206 studio.module        INFO       |   |   |   |   Add current temporary directory into sys.path
+2023-06-17 04:41:23,207 studio.module        INFO       |   |   |   |   Check and convert DataTable to DataFrame
+2023-06-17 04:41:23,208 studio.core          INFO       |   |   |   |   Execute python script - Start:
+2023-06-17 04:41:23,211 studio.core          INFO       |   |   |   |   Execute python script - End with 0.0029s elapsed.
+2023-06-17 04:41:23,211 studio.core          INFO       |   |   |   |   Wrap output DataFrame to DataTable - Start:
+2023-06-17 04:41:23,214 studio.core          INFO       |   |   |   |   Wrap output DataFrame to DataTable - End with 0.0024s elapsed.
+2023-06-17 04:41:23,215 studio.core          DEBUG      |   |   |   |   return:
+2023-06-17 04:41:23,215 studio.core          DEBUG      |   |   |   |   |   [0] = <DataTable (1 Rows, 2 Cols) at 0x00007F896601CF70>
+2023-06-17 04:41:23,216 studio.core          DEBUG      |   |   |   |   |   [1] = <DataTable (0 Rows, 0 Cols) at 0x00007F896601CFD0>
+2023-06-17 04:41:23,217 studio.core          INFO       |   |   |   ExecutePythonScriptModule.run - End with 0.0170s elapsed.
+2023-06-17 04:41:23,218 studio.core          INFO       |   |   Executing node 4: Execute Python Script - End with 0.0819s elapsed.
+2023-06-17 04:41:23,219 studio.core          INFO       |   Processing - End with 0.3568s elapsed.
+2023-06-17 04:41:23,219 studio.core          INFO       |   Post-processing - Start:
+2023-06-17 04:41:23,220 studio.core          INFO       |   Post-processing - End with 0.0002s elapsed.
+2023-06-17 04:41:23,220 studio.core          INFO       Handling http request - End with 0.3601s elapsed.
+2023-06-17 04:41:23,221 studio.azureml.designer.serving.dagengine.request_handler DEBUG      Run: output data(raw) = {"Results": {"output1": [{"DiabetesPrediction": 1.0, "Probability": 0.7162970406564699}]}}
+2023-06-17 04:41:23,222 | root | INFO | run() output is HTTP Response
+2023-06-17 04:41:23,222 | root | INFO | 200
+127.0.0.1 - - [17/Jun/2023:04:41:23 +0000] "POST /score?verbose=true HTTP/1.0" 200 90 "-" "Go-http-client/1.1"
+2023-06-17 04:45:22,586 | root | INFO | 200
+127.0.0.1 - - [17/Jun/2023:04:45:22 +0000] "GET /swagger.json HTTP/1.0" 200 4270 "-" "Go-http-client/1.1"
+2023-06-17 04:45:27,886 | root | INFO | 200
+127.0.0.1 - - [17/Jun/2023:04:45:27 +0000] "GET /swagger.json HTTP/1.0" 200 4270 "-" "Go-http-client/1.1"
+2023-06-17 04:45:29,561 | root | INFO | Scoring Timer is set to 60.0 seconds
+2023-06-17 04:45:29,563 studio.core          INFO       Handling http request - Start:
+2023-06-17 04:45:29,564 studio.azureml.designer.serving.dagengine.request_handler INFO       |   Run: is_classic = False, with_details = False, verbose = True
+2023-06-17 04:45:29,565 studio.core          INFO       |   Pre-processing - Start:
+2023-06-17 04:45:29,565 studio.core          INFO       |   Pre-processing - End with 0.0004s elapsed.
+2023-06-17 04:45:29,566 studio.core          INFO       |   Processing - Start:
+2023-06-17 04:45:29,586 studio.core          INFO       |   |   Executing node 1: Select Columns in Dataset - Start:
+2023-06-17 04:45:29,589 studio.common        DEBUG      |   |   |   Load schema successfully.
+2023-06-17 04:45:29,591 studio.modulehost    INFO       |   |   |   Return without parsing
+2023-06-17 04:45:29,592 studio.modulehost    INFO       |   |   |   Parse ColumnSelection parameter
+2023-06-17 04:45:29,593 studio.core          INFO       |   |   |   SelectColumnsModule.run - Start:
+2023-06-17 04:45:29,594 studio.core          DEBUG      |   |   |   |   kwargs:
+2023-06-17 04:45:29,595 studio.core          DEBUG      |   |   |   |   |   table = <azureml.studio.common.datatable.data_table.DataTable object at 0x7f896601cd60>
+2023-06-17 04:45:29,595 studio.core          DEBUG      |   |   |   |   |   feature_list = <azureml.studio.common.datatable.data_table.DataTableColumnSelection object at 0x7f89660771f0>
+2023-06-17 04:45:29,595 studio.core          DEBUG      |   |   |   |   validated_args:
+2023-06-17 04:45:29,596 studio.core          DEBUG      |   |   |   |   |   table = <azureml.studio.common.datatable.data_table.DataTable object at 0x7f896601cd60>
+2023-06-17 04:45:29,597 studio.core          DEBUG      |   |   |   |   |   feature_list = <azureml.studio.common.datatable.data_table.DataTableColumnSelection object at 0x7f89660771f0>
+2023-06-17 04:45:29,597 studio.module        INFO       |   |   |   |   Select column indexes from Dataset
+2023-06-17 04:45:29,600 studio.core          DEBUG      |   |   |   |   return:
+2023-06-17 04:45:29,600 studio.core          DEBUG      |   |   |   |   |   [0] = <DataTable (3 Rows, 8 Cols) at 0x00007F8966050F40>
+2023-06-17 04:45:29,601 studio.core          INFO       |   |   |   SelectColumnsModule.run - End with 0.0074s elapsed.
+2023-06-17 04:45:29,602 studio.core          INFO       |   |   Executing node 1: Select Columns in Dataset - End with 0.0152s elapsed.
+2023-06-17 04:45:29,602 studio.core          INFO       |   |   Executing node 2: Apply Transformation - Start:
+2023-06-17 04:45:29,603 studio.common        DEBUG      |   |   |   Load schema successfully.
+2023-06-17 04:45:29,605 studio.modulehost    INFO       |   |   |   Return without parsing
+2023-06-17 04:45:29,605 studio.modulehost    INFO       |   |   |   Return without parsing
+2023-06-17 04:45:29,606 studio.core          INFO       |   |   |   ApplyTransformationModule.run - Start:
+2023-06-17 04:45:29,606 studio.core          DEBUG      |   |   |   |   kwargs:
+2023-06-17 04:45:29,607 studio.core          DEBUG      |   |   |   |   |   transform = <azureml.studio.modules.datatransform.scale_and_reduce.normalize_data.nomalize_transformer.NormalizeTransformer object at 0x7f8966819910>
+2023-06-17 04:45:29,607 studio.core          DEBUG      |   |   |   |   |   data = <azureml.studio.common.datatable.data_table.DataTable object at 0x7f89660503a0>
+2023-06-17 04:45:29,607 studio.core          DEBUG      |   |   |   |   validated_args:
+2023-06-17 04:45:29,608 studio.core          DEBUG      |   |   |   |   |   transform = <azureml.studio.modules.datatransform.scale_and_reduce.normalize_data.nomalize_transformer.NormalizeTransformer object at 0x7f8966819910>
+2023-06-17 04:45:29,608 studio.core          DEBUG      |   |   |   |   |   data = <azureml.studio.common.datatable.data_table.DataTable object at 0x7f89660503a0>
+2023-06-17 04:45:29,608 studio.core          INFO       |   |   |   |   NormalizeTransformer.apply - Start:
+2023-06-17 04:45:29,609 studio.core          INFO       |   |   |   |   |   DataTable.clone - Start:
+2023-06-17 04:45:29,610 studio.core          INFO       |   |   |   |   |   DataTable.clone - End with 0.0007s elapsed.
+2023-06-17 04:45:29,620 studio.core          INFO       |   |   |   |   NormalizeTransformer.apply - End with 0.0109s elapsed.
+2023-06-17 04:45:29,620 studio.core          DEBUG      |   |   |   |   return:
+2023-06-17 04:45:29,620 studio.core          DEBUG      |   |   |   |   |   [0] = <DataTable "Dataset" (3 Rows, 8 Cols) at 0x00007F8966077670>
+2023-06-17 04:45:29,621 studio.core          INFO       |   |   |   ApplyTransformationModule.run - End with 0.0149s elapsed.
+2023-06-17 04:45:29,622 studio.core          INFO       |   |   Executing node 2: Apply Transformation - End with 0.0193s elapsed.
+2023-06-17 04:45:29,622 studio.core          INFO       |   |   Executing node 3: Score Model - Start:
+2023-06-17 04:45:29,624 studio.common        DEBUG      |   |   |   Load schema successfully.
+2023-06-17 04:45:29,625 studio.modulehost    INFO       |   |   |   Return without parsing
+2023-06-17 04:45:29,626 studio.modulehost    INFO       |   |   |   Return without parsing
+2023-06-17 04:45:29,626 studio.modulehost    INFO       |   |   |   Parse bool parameter
+2023-06-17 04:45:29,628 studio.core          INFO       |   |   |   ScoreModelModule.run - Start:
+2023-06-17 04:45:29,628 studio.core          DEBUG      |   |   |   |   kwargs:
+2023-06-17 04:45:29,629 studio.core          DEBUG      |   |   |   |   |   learner = <azureml.studio.modules.ml.initialize_models.binary_classifier.logistic_regression_biclassifier.logistic_regression_biclassifier.LogisticRegressionBiClassifier object at 0x7f8966831550>
+2023-06-17 04:45:29,630 studio.core          DEBUG      |   |   |   |   |   test_data = <azureml.studio.common.datatable.data_table.DataTable object at 0x7f8966077700>
+2023-06-17 04:45:29,630 studio.core          DEBUG      |   |   |   |   |   append_or_result_only = True
+2023-06-17 04:45:29,631 studio.core          DEBUG      |   |   |   |   validated_args:
+2023-06-17 04:45:29,631 studio.core          DEBUG      |   |   |   |   |   learner = <azureml.studio.modules.ml.initialize_models.binary_classifier.logistic_regression_biclassifier.logistic_regression_biclassifier.LogisticRegressionBiClassifier object at 0x7f8966831550>
+2023-06-17 04:45:29,631 studio.core          DEBUG      |   |   |   |   |   test_data = <azureml.studio.common.datatable.data_table.DataTable object at 0x7f8966077700>
+2023-06-17 04:45:29,632 studio.core          DEBUG      |   |   |   |   |   append_or_result_only = True
+2023-06-17 04:45:29,633 studio.module        INFO       |   |   |   |   Validated testing data has 3 Row(s) and 8 Columns.
+2023-06-17 04:45:29,636 studio.module        INFO       |   |   |   |   Check if column types of test data are consistent with train data
+2023-06-17 04:45:29,637 studio.module        INFO       |   |   |   |   Building Normalizer - found Label column=None with encode_label=False
+2023-06-17 04:45:29,694 studio.module        INFO       |   |   |   |   Building normalizer - found 8 feature columns with normalize_number=True
+2023-06-17 04:45:29,694 studio.module        DEBUG      |   |   |   |   Building normalizer - found feature columns: "Pregnancies,PlasmaGlucose,DiastolicBloodPressure,TricepsThickness,SerumInsulin,BMI,DiabetesPedigree,Age".
+2023-06-17 04:45:29,696 studio.module        INFO       |   |   |   |   Building normalizer - found 8 numeric feature columns and 0 string feature columns to be encoded
+2023-06-17 04:45:29,696 studio.module        DEBUG      |   |   |   |   Building normalizer - found numeric feature columns to be encoded: "Pregnancies,PlasmaGlucose,DiastolicBloodPressure,TricepsThickness,SerumInsulin,BMI,DiabetesPedigree,Age".
+2023-06-17 04:45:29,696 studio.module        DEBUG      |   |   |   |   Building normalizer - found string feature columns to be encoded: "".
+2023-06-17 04:45:29,696 studio.module        INFO       |   |   |   |   Successfully built normalizer of test data.
+2023-06-17 04:45:29,696 studio.module        INFO       |   |   |   |   Successfully checked column types. Predicting.
+2023-06-17 04:45:29,697 studio.core          INFO       |   |   |   |   BaseLearner._apply_normalize - Start:
+2023-06-17 04:45:29,697 studio.core          INFO       |   |   |   |   |   Applying feature normalization - Start:
+2023-06-17 04:45:29,697 studio.module        INFO       |   |   |   |   |   |   Start to execute normalizer.transform with column_list: "Pregnancies,PlasmaGlucose,DiastolicBloodPressure,TricepsThickness,SerumInsulin,BMI,DiabetesPedigree,Age".
+2023-06-17 04:45:29,697 studio.module        INFO       |   |   |   |   |   |   Columns of input DataFrame: 8
+2023-06-17 04:45:29,697 studio.module        INFO       |   |   |   |   |   |   Columns to be transformed: 8
+2023-06-17 04:45:29,697 studio.module        INFO       |   |   |   |   |   |   Columns to be encoded: 8
+2023-06-17 04:45:29,698 studio.module        INFO       |   |   |   |   |   |   Transform with label column Diabetic.
+2023-06-17 04:45:29,698 studio.core          INFO       |   |   |   |   |   |   Normalizer._transform_numeric_feature_columns - Start:
+2023-06-17 04:45:29,707 studio.module        INFO       |   |   |   |   |   |   |   Successfully encoded 8 numeric feature columns.
+2023-06-17 04:45:29,707 studio.core          INFO       |   |   |   |   |   |   Normalizer._transform_numeric_feature_columns - End with 0.0089s elapsed.
+2023-06-17 04:45:29,707 studio.module        INFO       |   |   |   |   |   |   Construct train set complete.
+2023-06-17 04:45:29,707 studio.core          INFO       |   |   |   |   |   Applying feature normalization - End with 0.0107s elapsed.
+2023-06-17 04:45:29,708 studio.core          INFO       |   |   |   |   BaseLearner._apply_normalize - End with 0.0113s elapsed.
+2023-06-17 04:45:29,709 studio.core          INFO       |   |   |   |   BaseLearner._predict - Start:
+2023-06-17 04:45:29,709 studio.core          INFO       |   |   |   |   |   Predicting probability - Start:
+2023-06-17 04:45:29,710 studio.core          INFO       |   |   |   |   |   Predicting probability - End with 0.0006s elapsed.
+2023-06-17 04:45:29,710 studio.core          INFO       |   |   |   |   |   calculating argmax(Probability) - Start:
+2023-06-17 04:45:29,710 studio.core          INFO       |   |   |   |   |   calculating argmax(Probability) - End with 0.0000s elapsed.
+2023-06-17 04:45:29,711 studio.core          INFO       |   |   |   |   BaseLearner._predict - End with 0.0022s elapsed.
+2023-06-17 04:45:29,712 studio.module        INFO       |   |   |   |   Successfully predicted.
+2023-06-17 04:45:29,714 studio.module        INFO       |   |   |   |   Found 2 label classes in classes_ attribute.
+2023-06-17 04:45:29,714 studio.module        INFO       |   |   |   |   Using 1 as probability column.
+2023-06-17 04:45:29,721 studio.module        INFO       |   |   |   |   Binary Classification Model Scored Columns are: 
+2023-06-17 04:45:29,721 studio.module        INFO       |   |   |   |   There are 2 score columns: "Binary Class Assigned Labels,Calibrated Score"
+2023-06-17 04:45:29,721 studio.core          DEBUG      |   |   |   |   return:
+2023-06-17 04:45:29,722 studio.core          DEBUG      |   |   |   |   |   [0] = <DataTable "Dataset" (3 Rows, 10 Cols) at 0x00007F8966077700>
+2023-06-17 04:45:29,722 studio.core          INFO       |   |   |   ScoreModelModule.run - End with 0.0942s elapsed.
+2023-06-17 04:45:29,724 studio.core          INFO       |   |   Executing node 3: Score Model - End with 0.1011s elapsed.
+2023-06-17 04:45:29,724 studio.core          INFO       |   |   Executing node 4: Execute Python Script - Start:
+2023-06-17 04:45:29,731 studio.common        DEBUG      |   |   |   Load schema successfully.
+2023-06-17 04:45:29,735 studio.modulehost    INFO       |   |   |   Return without parsing
+2023-06-17 04:45:29,736 studio.modulehost    INFO       |   |   |   Parse str parameter
+2023-06-17 04:45:29,736 studio.core          INFO       |   |   |   ExecutePythonScriptModule.run - Start:
+2023-06-17 04:45:29,794 studio.core          DEBUG      |   |   |   |   kwargs:
+2023-06-17 04:45:29,794 studio.core          DEBUG      |   |   |   |   |   dataset1 = <azureml.studio.common.datatable.data_table.DataTable object at 0x7f8966077730>
+2023-06-17 04:45:29,795 studio.core          DEBUG      |   |   |   |   |   python_stream_reader = import pandas as pd
+
+def azureml_main(dataframe1 = None, dataframe2 = None):
+... (omitted 4 lines) ...
+                        inplace=True)
+    return scored_results
+2023-06-17 04:45:29,795 studio.core          DEBUG      |   |   |   |   validated_args:
+2023-06-17 04:45:29,795 studio.core          DEBUG      |   |   |   |   |   dataset1 = <azureml.studio.common.datatable.data_table.DataTable object at 0x7f8966077730>
+2023-06-17 04:45:29,795 studio.core          DEBUG      |   |   |   |   |   python_stream_reader = import pandas as pd
+
+def azureml_main(dataframe1 = None, dataframe2 = None):
+... (omitted 4 lines) ...
+                        inplace=True)
+    return scored_results
+2023-06-17 04:45:29,795 studio.core          DEBUG      |   |   |   |   |   dataset2 = None
+2023-06-17 04:45:29,795 studio.core          DEBUG      |   |   |   |   |   bundle_file = None
+2023-06-17 04:45:29,796 studio.core          DEBUG      |   |   |   |   |   py_lib_version = None
+2023-06-17 04:45:29,796 studio.module        INFO       |   |   |   |   Prepare python script
+2023-06-17 04:45:29,796 studio.module        INFO       |   |   |   |   Check and extract bundle zip file to path ./Script Bundle
+2023-06-17 04:45:29,797 studio.module        INFO       |   |   |   |   Add current temporary directory into sys.path
+2023-06-17 04:45:29,797 studio.module        INFO       |   |   |   |   Check and convert DataTable to DataFrame
+2023-06-17 04:45:29,799 studio.core          INFO       |   |   |   |   Execute python script - Start:
+2023-06-17 04:45:29,801 studio.core          INFO       |   |   |   |   Execute python script - End with 0.0023s elapsed.
+2023-06-17 04:45:29,802 studio.core          INFO       |   |   |   |   Wrap output DataFrame to DataTable - Start:
+2023-06-17 04:45:29,804 studio.core          INFO       |   |   |   |   Wrap output DataFrame to DataTable - End with 0.0019s elapsed.
+2023-06-17 04:45:29,806 studio.core          DEBUG      |   |   |   |   return:
+2023-06-17 04:45:29,806 studio.core          DEBUG      |   |   |   |   |   [0] = <DataTable (3 Rows, 2 Cols) at 0x00007F896601C790>
+2023-06-17 04:45:29,806 studio.core          DEBUG      |   |   |   |   |   [1] = <DataTable (0 Rows, 0 Cols) at 0x00007F89660355E0>
+2023-06-17 04:45:29,807 studio.core          INFO       |   |   |   ExecutePythonScriptModule.run - End with 0.0127s elapsed.
+2023-06-17 04:45:29,807 studio.core          INFO       |   |   Executing node 4: Execute Python Script - End with 0.0791s elapsed.
+2023-06-17 04:45:29,809 studio.core          INFO       |   Processing - End with 0.2421s elapsed.
+2023-06-17 04:45:29,809 studio.core          INFO       |   Post-processing - Start:
+2023-06-17 04:45:29,810 studio.core          INFO       |   Post-processing - End with 0.0000s elapsed.
+2023-06-17 04:45:29,810 studio.core          INFO       Handling http request - End with 0.2463s elapsed.
+2023-06-17 04:45:29,811 studio.azureml.designer.serving.dagengine.request_handler DEBUG      Run: output data(raw) = {"Results": {"output1": [{"DiabetesPrediction": 1.0, "Probability": 0.7162970406564702}, {"DiabetesPrediction": 1.0, "Probability": 0.856560585031955}, {"DiabetesPrediction": 1.0, "Probability": 0.8471392934700931}]}}
+2023-06-17 04:45:29,812 | root | INFO | run() output is HTTP Response
+2023-06-17 04:45:29,812 | root | INFO | 200
+127.0.0.1 - - [17/Jun/2023:04:45:29 +0000] "POST /score?verbose=true HTTP/1.0" 200 217 "-" "Go-http-client/1.1"
